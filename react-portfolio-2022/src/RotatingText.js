@@ -1,7 +1,7 @@
 import ReactRotatingText from 'react-rotating-text'
 import Typography from '@material-ui/core/Typography';
 import { ThemeProvider, createMuiTheme } from '@material-ui/core/styles';
-import './App.css'
+ import './App.css'
 const theme = createMuiTheme({
     typography: {
       fontFamily: [
