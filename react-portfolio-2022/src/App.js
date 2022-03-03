@@ -6,7 +6,6 @@ import Resume from "./Resume";
 import {
   BrowserRouter as Router,
   Routes,
-  Switch,
   Route,
 } from "react-router-dom";
 import Nav from "./nav";
