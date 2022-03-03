@@ -27,7 +27,6 @@ const Resume = () => {
              </div>
              </div>
          </ThemeProvider>
-    
     );
 }
  
