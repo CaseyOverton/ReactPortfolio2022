@@ -3,7 +3,7 @@ import Breadcrumbs from '@material-ui/core/Breadcrumbs';
 import Link from '@material-ui/core/Link';
 import { ThemeProvider, createMuiTheme } from '@material-ui/core/styles';
 import Moment from 'react-moment';
-
+import { withRouter } from 'react-router-dom'
 const Nav = () => {
   const style = 
   {
@@ -55,4 +55,4 @@ const Nav = () => {
 );
     }
 
-export default Nav;
+export default withRouter(Nav);
