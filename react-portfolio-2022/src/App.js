@@ -29,7 +29,7 @@ function App() {
          {theme === 'light' ? 'Dark' : 'Light'} Theme <div style={{marginTop:2}}><IoIosSunny /> </div>
         </button>
         <Routes> 
-          <Route path="/" element={<App />} />
+          <Route path="/" element={<Home />} />
           <Route index element={<Home />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/resume" element={<Resume />} />
