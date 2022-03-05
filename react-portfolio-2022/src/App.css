@@ -6,7 +6,6 @@ html {
 }
 .NameText {
   color: var(--text-primary);
-
   padding: 40px;
   /* font-family: 'Major Mono Display', monospace; */
 }
@@ -73,6 +72,7 @@ Button {
   border: 2px var(--text-primary) solid;
   float: right;
   margin-right: 5;
+  font-size: 15px;
   border-radius: 10px;
   border-width: 10;
   transition: all .5s;

@@ -1,9 +1,9 @@
 import React from 'react';
 import Breadcrumbs from '@material-ui/core/Breadcrumbs';
-import Link from '@material-ui/core/Link';
 import { ThemeProvider, createMuiTheme } from '@material-ui/core/styles';
 import Moment from 'react-moment';
-
+import { Link } from "react-router-dom";
+import Typography from '@material-ui/core/Typography'
 const Nav = () => {
   const style = 
   {
@@ -37,17 +37,30 @@ const Nav = () => {
       <ThemeProvider style={theme} >
       <Breadcrumbs style={{marginTop: 10, color: 'black', fontWeight: 'boldest', display: 'flex',
     justifyContent: 'center', fontSize:  20,}} aria-label="breadcrumb">
-     <Link  style={{color: 'black', fontWeight: 'bold'}} href="/" >
+  <button style={{backgroundColor: '#00000000',textDecoration:'none', border: 'none', fontWeight: 'bold', fontSize:  20,}} >
+     <Link  style={{color: 'black', fontWeight: 'bold', }} to="/" >
+       <Typography style={{fontWeight: 800, fontSize:  25,  }}>
         Home
+      </Typography>
       </Link>
-      <Link style={{color: 'black', fontWeight: 'bold', fontSize:  20,}}  href="/Contact">
+  </button>
+  <button style={{backgroundColor: '#00000000',textDecoration:'none', border: 'none', fontWeight: 'bold', fontSize:  30,}} >
+     <Link  style={{color: 'black', textDecoration: 'none !important' }} to="/Contact" >
+       <Typography style={{fontWeight: 800, fontSize:  25,}}>
         Contact
+      </Typography>
       </Link>
-      <Link  style={{color: 'black', fontWeight: 'bold', fontSize:  20,}}   href="/Resume">
+  </button>
+  <button style={{backgroundColor: '#00000000',textDecoration:'none', border: 'none', fontWeight: 'bold', fontSize:  35,}} >
+     <Link  style={{color: 'black', fontWeight: 'bold', }} to="/Resume" >
+       <Typography style={{fontWeight: 800, fontSize:  25,}}>
         Resume
+      </Typography>
       </Link>
+  </button>
+
       <div style={{paddingRight: '-50%', }} >
-      <Moment  style={{color: 'black', fontSize: 20, fontWeight: 'bold'}} format='h:mm a'>{date}</Moment>
+      <Moment  style={{color: 'black', fontSize: 25, fontWeight: 'bold'}} format='h:mm a'>{date}</Moment>
       </div>
     </Breadcrumbs>
     </ThemeProvider>
