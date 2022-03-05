@@ -30,7 +30,7 @@ function App() {
         </button>
         <Routes> 
           <Route path="/" element={<Home />} />
-          <Route index element={<Home />} />
+          {/* <Route index element={<Home />} /> */}
           <Route path="/contact" element={<Contact />} />
           <Route path="/resume" element={<Resume />} />
         </Routes>
