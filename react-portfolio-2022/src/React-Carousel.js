@@ -6,7 +6,7 @@ import img2 from './pictures/GarageSwap.jpg';
 import img3 from './pictures/EmployeeDirectory.png'
 import img4 from './pictures/Crypto2.png'
 import Typography from '@material-ui/core/Typography';
- import { AnimationOnScroll } from 'react-animation-on-scroll';
+  import { AnimationOnScroll } from 'react-animation-on-scroll';
 const Gallery = () => {
     return (
       <AnimationOnScroll animateIn='animate__fadeInUp'>
