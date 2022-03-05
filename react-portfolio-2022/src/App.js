@@ -5,7 +5,7 @@ import Contact from "./Contact/Contact";
 import Resume from "./Resume";
 import {
   BrowserRouter as Router,
-  Switch,
+  Routes,
   Route,
 } from "react-router-dom";
 import Nav from "./nav";
@@ -28,12 +28,12 @@ function App() {
         <button onClick={switchTheme}>
          {theme === 'light' ? 'Dark' : 'Light'} Theme <div style={{marginTop:2}}><IoIosSunny /> </div>
         </button>
-        <Switch> 
-          <Route path="/" component={Home} />
-          <Route index component={Home} />
-          <Route path="/contact" component={Contact} />
-          <Route path="/resume" component={Resume} />
-        </Switch>
+        <Routes> 
+          <Route path="/" element={<Home />} />
+          <Route index element={<Home />} />
+          <Route path="/contact" element={<Contact />} />
+          <Route path="/resume" element={<Resume />} />
+        </Routes>
       </Router>
     </div>
   );
