@@ -2,7 +2,6 @@ import React from 'react';
 import 'react-slideshow-image/dist/styles.css';
 import 'react-slideshow-image/dist/styles.css';
 import { Zoom } from 'react-slideshow-image';
-
 import img2 from './pictures/GarageSwap.jpg';
 import img3 from './pictures/EmployeeDirectory.png'
 import img4 from './pictures/Crypto2.png'
