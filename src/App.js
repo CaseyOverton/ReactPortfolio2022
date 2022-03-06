@@ -23,14 +23,14 @@ function App() {
   };
   return (
     <div data-theme={theme}>
-      <Router>
+      <Router basename='/'>
         <Nav />
         <button onClick={switchTheme}>
          {theme === 'light' ? 'Dark' : 'Light'} Theme <div style={{marginTop:2}}><IoIosSunny /> </div>
         </button>
         <Routes> 
           <Route exact path="/" element={<Home />} />
-          {/* <Route index element={<Home />} /> */}
+          <Route index element={<Home />} />
           <Route path="contact" element={<Contact />} />
           <Route path="resume" element={<Resume />} />
         </Routes>
