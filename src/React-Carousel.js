@@ -18,8 +18,8 @@ const Gallery = () => {
             <div style={{backgroundColor: 'transparent', border: '2px solid rgb(52, 97, 86)', height: '70%', width: '60%', display: 'inline-block', overflowY: 'scroll'}}>
               <Typography style={{ fontSize: 25, fontWeight: 'bold', padding: 30, color: 'var(--text-primary)', textAlign: 'center',}}>React powered website filters through a list of names, as the user types into an input. The data is obtained by an API with popular NPM package, axios. A javascript function was used to filter through each name typed in search bar.</Typography>
               <Typography>
-              <a style={{color: 'var(--text-primary)', fontSize: 25, marginBottom: 100, padding: 20, alignText: 'center', fontWeight: 'bold'}}href='https://jamescbaldwin.github.io/crypto-dashboard/'>Deployed Website</a><br></br>
-              <a style={{color:'var(--text-primary)',fontSize: 25, marginBottom: 100, padding: 20, alignText: 'center', fontWeight: 'bold'}} href="https://github.com/CaseyOverton/crypto-dashboard">Github Repo</a>
+              <a style={{color: 'var(--text-primary)', fontSize: 25, marginBottom: 100, padding: 20, alignText: 'center', fontWeight: 'bold'}}href='https://caseyoverton.github.io/employeeDirectory/'>Deployed Website</a><br></br>
+              <a style={{color:'var(--text-primary)',fontSize: 25, marginBottom: 100, padding: 20, alignText: 'center', fontWeight: 'bold'}} href="https://github.com/CaseyOverton/EmployeeDirectory">Github Repo</a>
               </Typography> 
               
             </div>
@@ -49,7 +49,7 @@ const Gallery = () => {
            <div style={{padding: 20, alignText: 'center', color: 'var(--text-primary)',}}>
            <Typography style={{color:'black', fontSize: 25,fontWeight: 'bold',color: 'var(--text-primary)' }} >
            <a style={{color: 'var(--text-primary)', marginBottom: 100,}} href="https://github.com/CaseyOverton/crypto-dashboard?organization=CaseyOverton&organization=CaseyOverton">Github Repo </a><br></br>
-           <a style={{color: 'var(--text-primary)', marginBottom: 100,}} href='https://github.com/CaseyOverton/crypto-dashboard?organization=CaseyOverton&organization=CaseyOverton'>Crypto-Tracker Website</a>
+           <a style={{color: 'var(--text-primary)', marginBottom: 100,}} href='https://jamescbaldwin.github.io/crypto-dashboard/'>Crypto-Tracker Website</a>
            </Typography>
            </div>
          </div>

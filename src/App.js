@@ -4,7 +4,7 @@ import Home from "./Home/HomePage";
 import Contact from "./Contact/Contact";
 import Resume from "./Resume";
 import {
-  HashRouter as Router,
+  BrowserRouter as Router,
   Routes,
   Route,
 } from "react-router-dom";
@@ -23,14 +23,14 @@ function App() {
   };
   return (
     <div data-theme={theme}>
-      <Router>
+      <Router basename={process.env.PUBLIC_URL}>
         <Nav />
         <button onClick={switchTheme}>
          {theme === 'light' ? 'Dark' : 'Light'} Theme <div style={{marginTop:2}}><IoIosSunny /> </div>
         </button>
         <Routes> 
           <Route exact path="/" element={<Home />} />
-          <Route index element={<Home />} />
+          {/* <Route index element={<Home />} /> */}
           <Route path="/contact" element={<Contact />} />
           <Route path="/resume" element={<Resume />} />
         </Routes>
