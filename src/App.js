@@ -4,7 +4,7 @@ import Home from "./Home/HomePage";
 import Contact from "./Contact/Contact";
 import Resume from "./Resume";
 import {
-  BrowserRouter as Router,
+  HashRouter as Router,
   Routes,
   Route,
 } from "react-router-dom";
@@ -30,7 +30,7 @@ function App() {
         </button>
         <Routes> 
           <Route exact path="/" element={<Home />} />
-          {/* <Route index element={<Home />} /> */}
+          <Route index element={<Home />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/resume" element={<Resume />} />
         </Routes>
