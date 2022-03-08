@@ -12,13 +12,13 @@ code {
     monospace;
 }
 :root {
-  --background: rgb(188, 206, 211);
+  --background: rgb(163, 162, 154);
   --background1: rgb(118, 160, 127);
   --background2: rgb(118, 160, 127);
   --text-primary: rgb(24, 30, 26);
   --text-secondary: royalblue;
-  --accent: rgb(57, 119, 114);
-  --bar1: rgb(49, 84, 85);
+  --accent: rgb(48, 97, 93);
+  --bar1: rgb(126, 197, 187);
   --buttonText: rgb(252, 252, 252);
   --button: rgba(20, 21, 26, 0.87);
   --resume:  rgb(123, 111, 104);

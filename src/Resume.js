@@ -16,11 +16,12 @@ const Resume = () => {
              <div className="headerBackground">
                  <div className="bg-textR">
                       <div className="NameText" style={{marginTop: -40,}}>
-                         <Typography style={{fontSize: 50,marginTop: 15, marginLeft: -30, fontWeight: 'bold', textAlign: 'left'}}>Casey Overton</Typography>
-                         <Typography style={{fontSize: 30,  marginLeft: -20, fontWeight: 'bold',textAlign: 'left'}}>Resume</Typography>
+                      <Typography style={{fontSize: '250%',marginTop: 15, marginLeft: -30, fontWeight: 'bold', textAlign: 'left'}}>Casey Overton</Typography>
+                         <Typography style={{fontSize: '120%',  marginLeft: -20, fontWeight: 'bold',textAlign: 'left'}}>Resume</Typography>
+                      </div>
                       </div>
                   </div>
-             </div>
+             {/* </div> */}
              <div className="contactContainer">
              <div className="resume">
               <img style={{marginLeft: '20%',marginRight: '20%' }}src={img} />
