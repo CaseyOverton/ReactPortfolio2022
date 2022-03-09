@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/static/css/main.93498250.css",
+    "main.js": "/static/js/main.f08613e5.js",
+    "static/js/787.e42e554d.chunk.js": "/static/js/787.e42e554d.chunk.js",
+    "static/media/GarageSwap.jpg": "/static/media/GarageSwap.ba8437c050d09e341166.jpg",
+    "static/media/EmployeeDirectory.png": "/static/media/EmployeeDirectory.f0627dfb1104481cea6a.png",
+    "static/media/Crypto2.png": "/static/media/Crypto2.956c41e491d593511f62.png",
+    "static/media/CaseyOverton2022Resume.jpg": "/static/media/CaseyOverton2022Resume.90972716c12149b71658.jpg",
+    "index.html": "/index.html",
+    "main.93498250.css.map": "/static/css/main.93498250.css.map",
+    "main.f08613e5.js.map": "/static/js/main.f08613e5.js.map",
+    "787.e42e554d.chunk.js.map": "/static/js/787.e42e554d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.93498250.css",
+    "static/js/main.f08613e5.js"
+  ]
+}
