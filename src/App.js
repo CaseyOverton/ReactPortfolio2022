@@ -23,7 +23,7 @@ function App() {
   };
   return (
     <div data-theme={theme}>
-      <Router basename='/'>
+      <Router basename={process.env.PUBLIC_URL}>
         <Nav />
         <button onClick={switchTheme}>
          {theme === 'light' ? 'Dark' : 'Light'} Theme <div style={{marginTop:2}}><IoIosSunny /> </div>
