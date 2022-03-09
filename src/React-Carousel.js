@@ -13,6 +13,20 @@ const Gallery = () => {
       <div style={{ height: 'auto', flex: 1}}>
         <Zoom scale={0.2}>
         {
+         <>
+         <img style={{ height: '70%', width:'60%', border: '2px solid rgb(52, 97, 86)' }} src={img4} />
+         <div style={{backgroundColor: 'transparent', border: '2px solid rgb(52, 97, 86)', height: '70%', width: '60%', display: 'inline-block', overflowY: 'scroll'}} >
+           <Typography style={{ fontSize: 25, fontWeight: 'bold', padding: 30, color: 'var(--text-primary)', textAlign: 'center',}}>Crypto-Tracker is a React Web Application built by team of UNC developers to sort and display stock data. The website is fully responsive and uses local storage to save user favorites.</Typography>
+           <div style={{padding: 20, alignText: 'center', color: 'var(--text-primary)',}}>
+           <Typography style={{color:'black', fontSize: 25,fontWeight: 'bold',color: 'var(--text-primary)' }} >
+           <a style={{color: 'var(--text-primary)', marginBottom: 100,}} href="https://github.com/CaseyOverton/crypto-dashboard?organization=CaseyOverton&organization=CaseyOverton">Github Repo </a><br></br>
+           <a style={{color: 'var(--text-primary)', marginBottom: 100,}} href='https://jamescbaldwin.github.io/crypto-dashboard/'>Crypto-Tracker Website</a>
+           </Typography>
+           </div>
+         </div>
+         </>
+          }
+        {
             <>
             <img style={{height: '70%', width:'60%',  marginBottom: 100,}} src={img3} />
             <div style={{backgroundColor: 'transparent', border: '2px solid rgb(52, 97, 86)', height: '70%', width: '60%', display: 'inline-block', overflowY: 'scroll'}}>
