@@ -1,6 +1,6 @@
 {
   "name": "react-portfolio-2022",
-  "homepage": "https://CaseyOverton.github.io/",
+  "homepage": "https://CaseyOverton.github.io/reactportfolio2022",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -30,7 +30,7 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "deploy": "gh-pages -b master -d build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "predeploy": "npm run build",
     "build": "react-scripts build",
