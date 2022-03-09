@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "./static/css/main.a901fff4.css",
-    "main.js": "./static/js/main.d1a88101.js",
-    "static/js/787.e42e554d.chunk.js": "./static/js/787.e42e554d.chunk.js",
-    "static/media/GarageSwap.jpg": "./static/media/GarageSwap.ba8437c050d09e341166.jpg",
-    "static/media/EmployeeDirectory.png": "./static/media/EmployeeDirectory.f0627dfb1104481cea6a.png",
-    "static/media/Crypto2.png": "./static/media/Crypto2.956c41e491d593511f62.png",
-    "static/media/CaseyOverton2022Resume.jpg": "./static/media/CaseyOverton2022Resume.90972716c12149b71658.jpg",
-    "index.html": "./index.html",
-    "main.a901fff4.css.map": "./static/css/main.a901fff4.css.map",
-    "main.d1a88101.js.map": "./static/js/main.d1a88101.js.map",
-    "787.e42e554d.chunk.js.map": "./static/js/787.e42e554d.chunk.js.map"
+    "main.css": "/reactportfolio2022/static/css/main.93498250.css",
+    "main.js": "/reactportfolio2022/static/js/main.5ab61812.js",
+    "static/js/787.e42e554d.chunk.js": "/reactportfolio2022/static/js/787.e42e554d.chunk.js",
+    "static/media/GarageSwap.jpg": "/reactportfolio2022/static/media/GarageSwap.ba8437c050d09e341166.jpg",
+    "static/media/EmployeeDirectory.png": "/reactportfolio2022/static/media/EmployeeDirectory.f0627dfb1104481cea6a.png",
+    "static/media/Crypto2.png": "/reactportfolio2022/static/media/Crypto2.956c41e491d593511f62.png",
+    "static/media/CaseyOverton2022Resume.jpg": "/reactportfolio2022/static/media/CaseyOverton2022Resume.90972716c12149b71658.jpg",
+    "index.html": "/reactportfolio2022/index.html",
+    "main.93498250.css.map": "/reactportfolio2022/static/css/main.93498250.css.map",
+    "main.5ab61812.js.map": "/reactportfolio2022/static/js/main.5ab61812.js.map",
+    "787.e42e554d.chunk.js.map": "/reactportfolio2022/static/js/787.e42e554d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a901fff4.css",
-    "static/js/main.d1a88101.js"
+    "static/css/main.93498250.css",
+    "static/js/main.5ab61812.js"
   ]
 }
